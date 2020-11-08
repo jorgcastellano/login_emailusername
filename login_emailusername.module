@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Allows users to login with their username or email address in the same input box.
+ * Allows users to login with username or email address in the same input box.
  */
 
 use Drupal\Core\Form\FormStateInterface;
