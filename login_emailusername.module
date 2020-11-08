@@ -12,8 +12,8 @@ use Drupal\Core\Form\FormStateInterface;
  */
 function login_emailusername_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   if ($form_id === 'user_login_form' || $form_id === 'fancy_login_user_login_form') {
-    $form['name']['#title'] = t('Username or email address.');
-    $form['name']['#description'] = t('Enter your username or email address');
+    $form['name']['#title'] = t('Username or email address');
+    $form['name']['#description'] = t('Enter your username or email address.');
     $form['name']['#element_validate'][] = 'login_emailusername_user_login_validate';
   }
 }
