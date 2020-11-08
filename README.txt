@@ -29,9 +29,7 @@ RECOMMENDED MODULES
 
 This module duplicates some functionality present in the 7.x-1.x versions of
 the logintoboggon module.
-However, at the time of writing that module does not have a functional 8.x-1.x
-version.
-https://www.drupal.org/node/2147969
+The module is compatible with Drupal 8 and Drupal 9.
 
 
 INSTALLATION
