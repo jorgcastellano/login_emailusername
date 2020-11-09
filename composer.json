@@ -14,7 +14,7 @@
     "issues": "https://drupal.org/project/issues/login_emailusername",
     "source": "https://git.drupalcode.org/project/login_emailusername"
   },
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "require": {},
   "extra": {
